@@ -61,7 +61,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
         let open_ai_request = OpenAIRequest {
             model: "text-davinci-003".into(),
             prompt: format!("{} {}", preamble, user_text),
-            max_tokens: 100,
+            max_tokens: 100
         };
         let body = Body::from(serde_json::to_vec(&open_ai_request)?); //1. A stream of Bytes, used when receiving bodies 2. Converts to this type (bytes) from the input type (json) 3. to_vec() = Serialize the given data structure as a JSON byte vector 4. ? Operator ensures extracts value from Result from to_vec, or compiler will think data types/traits don't match up
         //Set up Request to send tp OpenAi API
