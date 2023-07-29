@@ -12,4 +12,4 @@ III. Why are all my responses about Jindos?
 
 As you can see in line 47 of main.rs, my Preamble is part of the prompt which shapes the responses I expect to get from ChatGPT. Since my rescue dog is a Jindo, I wanted the responses we got back to reflect a major player in my life: my dog!
 
-IV. To run the app, you can simply clone this repo and run '$Cargo Run' in your terminal.
+IV. To run the app, you can simply clone this repo and run 'Cargo Run' in your terminal.
