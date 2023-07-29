@@ -6,7 +6,7 @@ This is a simple CLI app that prompts the user to ask ChatGPT a question and rec
 
 II. How to set up your OpenAI API key as an environmental variable
 
-It's good practice to not put out logins and passwords like an API key out into the wild (and onto Github). This simple example stored my OpenAI API key in the .env file. You're welcome to hardcode your API key onto the main.rs in your code editor, but do not publiclly reveal it! After you use up $5 worth of data, OpenAI will begin to charge you $$$.
+It's good practice to not put out logins and passwords like an API key out into the wild (and onto Github). This simple example stored my OpenAI API key in the .env file. You're welcome to hardcode your API key onto the main.rs in your code editor, but do not publiclly reveal it! After you use up $5 worth of data, OpenAI will begin to charge you $$$. Add an .env file and add your API key to the OPENAI_TOKEN, which is used on line 49.
 
 III. Why are all my responses about Jindos?
 
